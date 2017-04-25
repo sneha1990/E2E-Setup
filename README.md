@@ -1,5 +1,4 @@
 # E2E-Setup
-Huddle Wrapper E2E Project Set Up
 Important points that need to keep in consideration:-
 1.	Node.js installation 
 -	It is open source platform. It supports JavaScript runtime environment for executing JavaScript.
