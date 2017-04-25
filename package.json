@@ -1,0 +1,25 @@
+{
+  "name": "wrapper-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "tsd reinstall && webdriver-manager update",
+    "pretest": "tsc",
+    "test": "protractor e2e.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "2.4.1",
+    "protractor": "4.0.2",
+    "tsd": "0.6.5",
+    "typescript": "1.8.10",
+    "winston": "^2.2.0"
+
+  },
+  "devDependencies": {
+    "protractor-jasmine2-screenshot-reporter": "^0.3.2",
+    "winston": "^2.2.0"
+    
+  }
+}
