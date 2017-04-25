@@ -14,8 +14,8 @@ o	npm  -v
 
 2.	Protractor Installation locally in project environment 
 -	It is required to install protractor locally to work on consistent version of protractor that is stable, write following command in command line (set local path of project in command line )
-o	 npm install protractor --save-dev
-       This command will install protractor locally with specific version in project environment (This will require once only at initial stage while set up is done first time of project)
+	o	 npm install protractor --save-dev
+		       This command will install protractor locally with specific version in project environment (This will require once only at initial stage while set up is done first time of project)
 3.	Install Jasmine screenshot reporter
 -	It is screenshot reporter to take snapshot of each test case that is executed with in project environment ,write following command in command line (set local path of project in command line )
 o	npm install protractor-jasmine2-screenshot-reporter --save-dev
