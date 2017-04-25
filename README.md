@@ -36,8 +36,6 @@ o	npm install -g bower tsd
 
 6.	Set up tscconfig.json file 
 -	This file specifies compiler options required to compile project.
--	This file exclude ‘node-module’ compiler as it is already defined in e2e.cinf.ts file.
-
 
  
 
