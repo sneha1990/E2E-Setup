@@ -20,18 +20,17 @@ Important points that need to keep in consideration:-
 2. Package.Json file
 
 - The usage of this file is to install all packages with their specific version locally to use them in required project environment
-- Once protractor&#39;s stable version is installed locally for particular project environment, use following command to use same set up of entire project in other pc
 
-- i. Protractor Installation locally in project environment
+  -i. Protractor Installation locally in project environment
 
-- It is required to install protractor locally to work on consistent version of protractor that is stable, write following command in command line (set local path of project in command line )
+  - -  It is required to install protractor locally to work on consistent version of protractor that is stable,installed version of protractor is specified in package.json file
  
-- ii. Install Jasmine screenshot reporter
+  -ii. Install Jasmine screenshot reporter
 
-- It is screenshot reporter to take snapshot of each test case that is executed with in project environment ,write following command in command line (set local path of project in command line )
+   - -  It is screenshot reporter to take snapshot of each test case that is executed with in project environment,installed version of jasmine screensgot reporter is specified in package.json file
      - Reference of html screenshort reporter is added in e2e.conf.ts file
      
-  - npm install
+- **npm install**
     - This command will install  protractor version, jasmine framework version, type script version, tsd version [this command is required to execute before typescript execution],jasmine screenshot reporter version
 
 3. Tsd.json file
