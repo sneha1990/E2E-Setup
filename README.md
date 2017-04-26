@@ -17,7 +17,7 @@ Important points that need to keep in consideration:-
 - To check if &#39;NPM&#39; is installed after successful installation of &#39;Node.Js&#39; – write following command in command line
   - npm  -v
 
-2. Package.Json file
+2. package.Json file
 
 - The usage of this file is to install all packages with their specific version locally to use them in required project environment
 
@@ -33,7 +33,7 @@ Important points that need to keep in consideration:-
 - **npm install**
     - This command will install  protractor version, jasmine framework version, type script version, tsd version [this command is required to execute before typescript execution],jasmine screenshot reporter version
 
-3. Tsd.json file
+3. tsd.json file
 
 - TSD is package manager, it is used to search and install typescript definition files from the &#39;Typing&#39; repository. This repository is defined by node.
 - This file contains currently protractor, selenium-webdriver, and node and jasmine tsd files.
@@ -41,7 +41,7 @@ Important points that need to keep in consideration:-
   - npm install -g bower tsd
     - this command will install all type script definition of &#39;tsd.json&#39; file as well as install all JavaScript library (using bower command )
 
-4. Tscconfig.json file
+4. tsconfig.json file
 
 - This file specifies compiler options required to compile project.
 
