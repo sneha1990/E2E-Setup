@@ -32,6 +32,8 @@ Important points that need to keep in consideration:-
      
 - **npm install**
     - This command will install  protractor version, jasmine framework version, type script version, tsd version [this command is required to execute before typescript execution],jasmine screenshot reporter version
+    
+    Reference Link for more details of package.json: https://docs.npmjs.com/files/package.json
 
 3. tsd.json file
 
@@ -40,8 +42,12 @@ Important points that need to keep in consideration:-
 - The file is executed once at initial stage before execution of typescript, use following command
   - npm install -g bower tsd
     - this command will install all type script definition of &#39;tsd.json&#39; file as well as install all JavaScript library (using bower command )
+    
+    Reference Link for more details of tsd.json: https://dinozafirakos.com/2014/07/07/automating-retrieval-of-typescript-definition-files/
 
 4. tsconfig.json file
 
 - This file specifies compiler options required to compile project.
+
+    Reference Link for more details of tsconfig.json: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 
