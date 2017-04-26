@@ -11,7 +11,7 @@ Important points that need to keep in consideration:-
   - node  -v
     - This will print node version if node is successfully installed
 
-Usage of NPM (Node Package Manager):-
+**Usage of NPM (Node Package Manager):-**
 
 - To make use of packages in Node.js we need to be able to install and manage them in useful way and this is where node package manager comes in. It install the packages you want to use and provides useful interface to work with those packages
 - To check if &#39;NPM&#39; is installed after successful installation of &#39;Node.Js&#39; – write following command in command line
